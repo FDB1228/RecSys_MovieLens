@@ -1,0 +1,9 @@
+# Проверено в Google Colab (Python 3.13). Остальные версии не закреплены.
+implicit==0.7.3
+torch
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+jupyter
