@@ -1,0 +1,9 @@
+# данные MovieLens не распространяются (лицензия GroupLens — только исследовательское использование)
+data/
+*.zip
+*.dat
+
+# служебное
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
