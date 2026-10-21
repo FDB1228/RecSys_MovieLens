@@ -70,35 +70,4 @@
 * Two-tower не настраивался (размерность, температура, число эпох, архитектура взяты «по умолчанию»).
 * Часть объяснений в блокноте — гипотезы, прямо не проверенные (в блокноте они оговорены).
 
-## Как запустить
 
-Проще всего — в Google Colab (кнопка выше). Блокнот сам скачивает данные и выполняется сверху вниз.
-
-Локально:
-
-```bash
-pip install implicit torch scikit-learn scipy pandas numpy matplotlib jupyter
-jupyter notebook RecSys_MovieLens.ipynb
-```
-
-Проверено в Google Colab (Python 3.13, `implicit` 0.7.3). Зёрна зафиксированы (`random_state=0`, `torch.manual_seed`).
-
-> Показанные в репозитории выводы ячеек получены при исходном запуске. После правок блокнота рекомендуется один раз выполнить «Restart & Run All» и убедиться, что числа воспроизводятся.
-
-## Данные и лицензия
-
-Данные [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) принадлежат GroupLens и распространяются только для исследовательских целей, поэтому в репозиторий не включены: блокнот скачивает их с `files.grouplens.org`. Лицензию на код нужно выбрать самостоятельно: `<лицензия>`.
-
-## Литература
-
-1. Harper, F. M., Konstan, J. A. *The MovieLens Datasets: History and Context.* ACM TiiS, 2015.
-2. Sarwar, B. et al. *Item-based collaborative filtering recommendation algorithms.* WWW, 2001.
-3. Hu, Y., Koren, Y., Volinsky, C. *Collaborative Filtering for Implicit Feedback Datasets.* ICDM, 2008.
-4. Yi, X. et al. *Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations.* RecSys, 2019.
-5. Cremonesi, P., Koren, Y., Turrin, R. *Performance of Recommender Algorithms on Top-N Recommendation Tasks.* RecSys, 2010.
-
-Полный список — в конце блокнота.
-
-## Автор
-
-<ваше имя> · <ссылка на профиль> · <контакты>
